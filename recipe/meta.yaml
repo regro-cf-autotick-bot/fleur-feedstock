@@ -25,9 +25,10 @@ requirements:
     - {{ compiler('fortran') }}
     - cmake <4
     - make
+    - pip
     - git
     - doxygen
-    - python >=3
+    - python >=3.10
     - pytest
     - masci-tools
     - openmpi  # [build_platform != target_platform]
